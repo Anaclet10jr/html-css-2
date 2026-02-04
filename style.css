@@ -1,0 +1,139 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+
+
+.header {
+    background-color: #d80909; 
+    color: white;
+    padding: 15px;
+    text-align: start; 
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+fieldset {
+    width: 350px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 12px;
+    box-shadow: 6px 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px 25px 25px;
+    background: #fff;
+}
+
+legend {
+    text-align: center;
+}
+
+legend img {
+    width: 60px;
+    height: 60px;
+    background: white;
+    padding: 6px;
+    border-radius: 50%;
+}
+
+
+.connect {
+    text-align: center;
+    margin: 15px 0 20px;
+    color: #333;
+    font-weight: 600;
+}
+
+
+.input-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 12px 12px 12px 40px; 
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.input-box input:focus {
+    outline: none;
+    border-color: #0d6efd;
+}
+
+
+.input-box.email input {
+    background: url('ic--outline-email.png') no-repeat 10px center;
+    background-size: 20px;
+}
+
+
+.input-box.password input {
+    background: url('proicons--key.png') no-repeat 10px center;
+    background-size: 20px;
+}
+
+
+.input-box.password .eye-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+
+.checking-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: rgb(0, 81, 255);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2765c4;
+}
+
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background: rgb(0, 81, 255);
+    font-size: 14px;
+    color: #ffffff;
+}
